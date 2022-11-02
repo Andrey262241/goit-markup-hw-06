@@ -564,6 +564,7 @@ button {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .logo-dark-item {
@@ -780,6 +781,7 @@ button {
 }
 
 .modal-label-text {
+  font-family: var(--primary-font);
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
@@ -842,7 +844,7 @@ fill: var(--effect-color);
 }
 
 .modal-checkbox {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .modal-checkbox-text {
@@ -886,6 +888,14 @@ border-color: var(--effect-color);
 .check-icon {
   width: 16px;
   height: 15px;
+}
+
+.terms {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--effect-color);
 }
 
 .modal-btn-form {
