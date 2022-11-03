@@ -720,7 +720,7 @@ button {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
-  transition: opacity 250ms linear visibility 250ms linear;
+  transition: opacity 250ms linear, visibility 250ms linear;
 }
 
 .modal {
@@ -733,9 +733,9 @@ button {
   position: absolute;
   top: 50%;
   left: 50%;
+  padding: 40px;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms linear;
-  padding: 40px;
 }
 
 .backdrop .is-hidden .modal {
@@ -850,9 +850,10 @@ fill: var(--effect-color);
 .modal-checkbox-text {
   font-size: 14px;
   line-height: 1.71;
-  color: var(--accent-color);
+  color: var(--secondary-color);
   display: flex;
   align-items: center;
+  margin-left: 15px;
 }
 
 .modal-checkbox-text span {
